@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="2" name="SelfHelp Suite 1" annotations="JDK" parallel="tests">
+         
+  <test name="Test 1">
+	 <classes>
+	   <class name="org.example.testcases.ExampleTest"/>
+	 </classes>
+   </test>
+   
+  <test name="Test 2">
+     <classes>
+       <class name="org.example.testcases.ExampleTest1"/>
+     </classes>
+   </test>
+</suite>

@@ -25,4 +25,5 @@ public class AutomationResultsController {
         System.out.println("Done Running Test Suites");
         return new ResponseEntity<>(new Response(), HttpStatus.OK);
     }
+    // Todo We can only use the automation.jar as a dependency in a project that runs the automation.
 }
