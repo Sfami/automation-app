@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-10T21:20:59Z" name="SelfHelp Suite 1" finished-at="2022-11-10T21:21:18Z" duration-ms="18994">
+    <groups>
+    </groups>
+    <test started-at="2022-11-10T21:20:59Z" name="Test 1" finished-at="2022-11-10T21:21:09Z" duration-ms="10393">
+      <class name="org.example.testcases.ExampleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.testcases.ExampleTest@5fac9270]" started-at="2022-11-10T23:20:59Z" name="setUp" finished-at="2022-11-10T23:21:06Z" duration-ms="6683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="exampleTest()[pri:0, instance:org.example.testcases.ExampleTest@5fac9270]" started-at="2022-11-10T23:21:06Z" name="exampleTest" finished-at="2022-11-10T23:21:08Z" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exampleTest -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.example.testcases.ExampleTest@5fac9270]" started-at="2022-11-10T23:21:08Z" name="logOut" finished-at="2022-11-10T23:21:09Z" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- org.example.testcases.ExampleTest -->
+    </test> <!-- Test 1 -->
+    <test started-at="2022-11-10T21:21:09Z" name="Test 2" finished-at="2022-11-10T21:21:18Z" duration-ms="8579">
+      <class name="org.example.testcases.ExampleTest1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.testcases.ExampleTest1@4eeba284]" started-at="2022-11-10T23:21:09Z" name="setUp" finished-at="2022-11-10T23:21:15Z" duration-ms="5434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="exampleTest1()[pri:0, instance:org.example.testcases.ExampleTest1@4eeba284]" started-at="2022-11-10T23:21:15Z" name="exampleTest1" finished-at="2022-11-10T23:21:17Z" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exampleTest1 -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.example.testcases.ExampleTest1@4eeba284]" started-at="2022-11-10T23:21:17Z" name="logOut" finished-at="2022-11-10T23:21:18Z" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- org.example.testcases.ExampleTest1 -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- SelfHelp Suite 1 -->
+  <suite started-at="2022-11-10T21:21:18Z" name="SelfHelp Suite 2" finished-at="2022-11-10T21:21:34Z" duration-ms="16448">
+    <groups>
+    </groups>
+    <test started-at="2022-11-10T21:21:18Z" name="Test 1" finished-at="2022-11-10T21:21:26Z" duration-ms="8121">
+      <class name="org.example.testcases.ExampleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.testcases.ExampleTest@1d48b611]" started-at="2022-11-10T23:21:18Z" name="setUp" finished-at="2022-11-10T23:21:23Z" duration-ms="5135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="exampleTest()[pri:0, instance:org.example.testcases.ExampleTest@1d48b611]" started-at="2022-11-10T23:21:23Z" name="exampleTest" finished-at="2022-11-10T23:21:25Z" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exampleTest -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.example.testcases.ExampleTest@1d48b611]" started-at="2022-11-10T23:21:25Z" name="logOut" finished-at="2022-11-10T23:21:26Z" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- org.example.testcases.ExampleTest -->
+    </test> <!-- Test 1 -->
+    <test started-at="2022-11-10T21:21:26Z" name="Test 2" finished-at="2022-11-10T21:21:34Z" duration-ms="8314">
+      <class name="org.example.testcases.ExampleTest1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.testcases.ExampleTest1@3d4ad945]" started-at="2022-11-10T23:21:26Z" name="setUp" finished-at="2022-11-10T23:21:31Z" duration-ms="5200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="exampleTest1()[pri:0, instance:org.example.testcases.ExampleTest1@3d4ad945]" started-at="2022-11-10T23:21:31Z" name="exampleTest1" finished-at="2022-11-10T23:21:33Z" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exampleTest1 -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org.example.testcases.ExampleTest1@3d4ad945]" started-at="2022-11-10T23:21:33Z" name="logOut" finished-at="2022-11-10T23:21:34Z" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- org.example.testcases.ExampleTest1 -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- SelfHelp Suite 2 -->
+</testng-results>

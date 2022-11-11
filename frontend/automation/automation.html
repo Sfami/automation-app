@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+        integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7346671700592944"
+        crossorigin="anonymous"></script>
+    <script>
+        async function runTests() {
+
+            fetch('http://localhost:9090/', {
+                method: 'GET', // *GET, POST, PUT, DELETE, etc.
+                mode: 'cors', // no-cors, *cors, same-origin
+                cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+                credentials: 'same-origin', // include, *same-origin, omit
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                redirect: 'follow', // manual, *follow, error
+                referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+                // body: JSON.stringify(data) // body data type must match "Content-Type" header
+            })
+                .then((response) => response.json())
+                .then((data) => {
+                    // TODO: Return an <a></a> element for viewing results if successful,
+                    // otherwise leave empty space
+                    console.log(data);
+                })
+                .catch((error) => {
+                    console.log(data);
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+</head>
+<body>
+    <section class="course">
+        <div class="latest-results">
+            <a class="button"onclick="runTests()">Run Automation</a>
+            <a class="button" href="./../../test-output/index.html">View Latest Automation Results</a>
+        </div>
+    </section>
+</body>
+
+</html>
